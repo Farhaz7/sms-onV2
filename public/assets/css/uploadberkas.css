@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  .formbold-mb-5 {
+    padding: 10px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 10px;
+
+  }
+
+  .formbold-form-wrapper {
+    margin:  auto;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    color: #07074d;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6b8073;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 10px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #35b63c;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .formbold-btn:hover {
+    background: rgb(8, 146, 27);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .formbold-radio {
+    width: 20px;
+    height: 20px;
+  }
+  .formbold-radio-label {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 12px;
+    color: #070707;
+    padding-right: 20px;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+  @media (max-width: 700px) {
+    .h1 {
+        text-align: center  ;
+        margin-top: 10px;
+        font-size: 27px;
+    }
+}
+
+.d-flex2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-flexs2 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    @media (min-width: 700px) {
+        .d-flex2 {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: initial;
+        }
+
+        .d-flexs2 {
+            margin-top: 0;
+        }
+    }
+
+    .berkass {
+        padding: 15px;
+    }
+    @media (max-width: 700px) {
+        .formbold-form-label {
+            font-size: 12px;
+        }
+        .formbold-form-input {
+            font-size: 14px;
+        }
+    }
+
+
+
+/* Gaya untuk tombol pengganti yang dibuat sendiri */
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Ganti dengan warna yang diinginkan */
+    color: #fff; /* Ganti dengan warna teks yang sesuai */
+}
+
+/* Gaya untuk mengganti warna tombol ketika dihover */
+.custom-file-upload:hover {
+    background-color: #45a049; /* Ganti dengan warna hover yang diinginkan */
+}
+input[type=file] {
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+  }
+  input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #35b63c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+
+  input[type=file]::file-selector-button:hover {
+    background: rgb(8, 146, 27);
+  }
+

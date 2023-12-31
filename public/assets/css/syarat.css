@@ -1,0 +1,93 @@
+.text-syarat {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text-syarat h3 {
+    font-size: 25px;
+    color: rgb(82, 81, 81);
+    text-shadow: 10px;
+}
+@media (max-width: 700px) {
+    .text-syarat h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+.persyaratan {
+    margin-bottom: 20px;
+}
+.persyaratan h3 {
+    font-size: 25px;
+    color: rgb(82, 81, 81);
+    text-shadow: 10px;
+}
+@media (max-width: 700px) {
+    .persyaratan h3 {
+        font-size: 20px;
+        color: rgb(82, 81, 81);
+        text-shadow: 10px;
+    }
+}
+@media (max-width: 700px) {
+    .persyaratan {
+        font-size: 14px;
+    }
+}
+.sistem {
+    margin-bottom: 20px; 
+}
+.sistem h3 {
+    font-size: 25px;
+    color: rgb(82, 81, 81);
+    text-shadow: 10px;
+}
+@media (max-width: 700px) {
+    .sistem h3 {
+        font-size: 20px;
+        color: rgb(82, 81, 81);
+        text-shadow: 10px;
+    }
+}
+@media (max-width: 700px) {
+    .sistem {
+        font-size: 14px;
+    }
+}
+.waktu {
+    margin-bottom: 20px;
+}
+.waktu h3 {
+    font-size: 25px;
+    color: rgb(82, 81, 81);
+    text-shadow: 10px;
+}
+@media (max-width: 700px) {
+    .waktu h3 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .waktu {
+        font-size: 14px;
+    }
+}
+@media (min-width: 540px) {
+    .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    }
+}
+@media (min-width: 540px) {
+    .formbold-form-wrapper {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    }
+}
+@media (min-width: 540px) {
+    .container-fluidt {
+        margin: 20px;
+    }
+}
